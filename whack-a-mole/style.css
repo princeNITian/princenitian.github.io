@@ -1,0 +1,34 @@
+.data-align {
+    text-align: center;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    background: turquoise;
+}
+
+.grid {
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.mole {
+    background: url('images/mole4.jpeg');
+    background-size: cover;
+}
+h1{
+    color: purple;
+}
+#score {
+    color: green;
+}
+#time-left {
+    color: pink;
+}
