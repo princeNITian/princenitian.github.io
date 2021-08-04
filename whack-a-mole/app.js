@@ -39,6 +39,7 @@ function countDown(){
     if(currentTime === 0){
         clearInterval(timerId);
         alert('Game Over! Your score is '+result);
+        location.reload();
     }
 }
 
