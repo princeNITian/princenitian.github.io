@@ -1,0 +1,25 @@
+.data-align {
+    text-align: center;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: dotted red;
+    background-color: lightblue;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: green;
+}
+.apple{
+    background-color:limegreen;
+}
